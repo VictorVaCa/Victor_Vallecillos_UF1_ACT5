@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Victor_Vallecillos_UF1_ACT5</string>
+    <string name="optionsButton">Menu opcions</string>
+    <string name="returnButton">Tornar al menu principal</string>
 </resources>
