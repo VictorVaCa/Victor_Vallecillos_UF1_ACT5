@@ -10,7 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(R.id.optionsButton).setOnClickListener {
+        val buttonToOptions = findViewById<Button>(R.id.optionsButton)
+
+        buttonToOptions.setOnClickListener {
             val intent = Intent(this, OptionsActivity::class.java)
             startActivity(intent)
         }

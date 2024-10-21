@@ -9,7 +9,9 @@ class OptionsActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_options)
 
-        findViewById<Button>(R.id.menuButton).setOnClickListener {
+        val buttonToMenu = findViewById<Button>(R.id.menuButton)
+
+        buttonToMenu.setOnClickListener {
             finish()
         }
     }
